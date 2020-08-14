@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "561390100",
+    "firebase_url": "https://lyric-b4f.firebaseio.com",
+    "project_id": "lyric-b4f",
+    "storage_bucket": "lyric-b4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560171500:android:97c949a75514c46f49",
+        "android_client_info": {
+          "package_name": "com.example.letsplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561390500-qr1pldtf44bijbfpidvvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC0Bocwo9QtrKS1TBWu8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561391500-qr1prqldtf44bijbfpidvvs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

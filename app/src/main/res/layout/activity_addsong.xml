@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CurrentList">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/addListToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7dbef0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- <ImageView
+        android:layout_width="53dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/search"
+        app:layout_constraintBottom_toTopOf="@+id/currentList"
+        app:layout_constraintStart_toEndOf="@+id/searchText"
+        app:layout_constraintTop_toBottomOf="@+id/mListToolbar"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="UnknownId" />-->
+
+
+    <ListView
+        android:id="@+id/addList"
+        android:layout_width="409dp"
+        android:layout_height="739dp"
+        android:windowSoftInputMode="adjustNothing"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mListToolbar"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+
+</android.support.constraint.ConstraintLayout>
